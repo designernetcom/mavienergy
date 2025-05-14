@@ -4146,3 +4146,25 @@ body{
 .broucher h5{
     margin: 10px 0px;
 }
+
+.imgdiv .overlay {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background:#00709c83;
+    mix-blend-mode: multiply;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1);
+    z-index: 1;
+}
+p{
+    word-spacing: normal !important;
+}
+
+@media (max-width:430px) {
+ .product-disc h4{
+  padding:5 20px;
+}   
+}
